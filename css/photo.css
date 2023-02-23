@@ -1,0 +1,14 @@
+/* navs.css -- Styling the nav elements for Lab 4
+ * author: Kennedy O'Hanley
+ */
+
+ div img {
+    width: 350px;
+    height: 350px;
+    border: 1px solid #000;
+    margin: 10px 0;
+  }
+
+ .cover {
+    object-fit: cover;
+  }
