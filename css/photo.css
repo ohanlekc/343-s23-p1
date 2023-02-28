@@ -1,14 +1,21 @@
-/* navs.css -- Styling the nav elements for Lab 4
+/* photo.css -- Styling the photo page elements
  * author: Kennedy O'Hanley
  */
 
  div img {
-    width: 350px;
-    height: 350px;
-    border: 1px solid #000;
-    margin: 10px 0;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #804f24;
+    margin: 1rem;
+  }
+
+  div {
+    background-color: #eff1ec;
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
   }
 
  .cover {
-    object-fit: cover;
+    object-fit:cover;
   }

@@ -1,0 +1,17 @@
+/* review.css -- Styling the review page elements
+ * author: Kennedy O'Hanley
+ */
+
+main {
+     background-color: #eff1ec;
+     margin: 1rem;
+     padding: 1rem;
+ }
+
+section {
+    margin: 1rem;
+}
+
+section p {
+    margin-left: 5rem;
+}

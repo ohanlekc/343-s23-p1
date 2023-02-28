@@ -1,0 +1,29 @@
+main {
+    display: flex;
+}
+
+main div.imgs img{
+    margin: 1rem;
+    text-align: center;
+    display: block;
+    width: 500px;
+    height: 350px;
+}
+
+main div.contact{
+    background-color: #eff1ec;
+    margin: 1rem;
+    padding: 1rem;
+    display: inline;
+    text-align:left;
+    width: 22vw;
+
+}
+
+main div.facebook {
+    margin: 1rem;
+    display: block;
+    width: 500px;
+    height: 690px;
+
+}
