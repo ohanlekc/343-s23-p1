@@ -11,27 +11,24 @@
  }
 
  main div.form label {
-    background-color: #eff1ec;
     margin: 1rem;
     padding: 1rem;
     display:inline;
+    background-color: #eff1ec;
 
  }
  main div.form input {
-    background-color: #eff1ec;
     margin: 1rem;
     margin-left: 3rem;
     padding: 1rem;
-
     display:inline;
-
+    background-color: #eff1ec;
  }
 
  div.titles h4 {
+     margin: 2rem;
      background-color: #eff1ec;
      color: #333d29;
-     margin: 2rem;
-
  }
 
  input:required {

@@ -4,17 +4,17 @@ main {
 
 main div.imgs img{
     margin: 1rem;
-    text-align: center;
-    display: block;
     width: 750px;
     height: 500px;
+    text-align: center;
+    display: block;
 }
 
 main div.about {
-    background-color: #eff1ec;
     margin: 1rem;
-    display: block;
     width: 45vw;
+    display: block;
+    background-color: #eff1ec;
 }
 
 @media only screen and (max-width:480px) {
@@ -27,17 +27,17 @@ main div.about {
     }
     main div.imgs img{
         margin: 1rem;
-        text-align: center;
-        display: block;
         width: 425px;
         height: 275px;
+        text-align: center;
+        display: block;
     }
 
     main div.about {
-        background-color: #eff1ec;
         margin: 1rem;
         padding: 1rem;
-        display: block;
         width: 84vw;
+        display: block;
+        background-color: #eff1ec;
     }
 }
