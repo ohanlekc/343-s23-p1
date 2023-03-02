@@ -10,17 +10,7 @@ main div.imgs img {
     display: block;
 }
 
-main div.imgs p {
-    margin: 1rem;
-    width: 500px;
-    display: block;
-    text-align: center;
-    background-color: #eff1ec;
-    color: #333d29;
-}
-
 main div.contact {
-
     margin: 1rem;
     padding: 1rem;
     width: 22vw;
