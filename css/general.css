@@ -37,20 +37,21 @@
      list-style-type:none;
      display: flex;
      align-items: center;
-     justify-content: space-evenly;
+     justify-content: space-around;
      background-color: #eff1ec;
      font-weight:bolder;
      padding: 1rem; 
 
  }
 
- nav li {
-     float:right;
+ nav ul li {
+     float:left;
+     text-align: left;
  }
 
- nav a {
-     display: inline;
-     padding: 1rem ;
+ nav ul li a {
+     /* display: inline; */
+     padding: 0rem ;
      text-decoration: none; 
      color: #333d29;
  }
