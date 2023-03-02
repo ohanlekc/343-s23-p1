@@ -56,7 +56,7 @@
      color: #333d29;
  }
 
- @media only screen and (max-width:700px) {
+ @media only screen and (max-width:480px) {
     nav ul {
         list-style-type:none;
         background-color: #eff1ec;
