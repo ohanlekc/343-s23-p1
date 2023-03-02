@@ -2,6 +2,7 @@ main {
     display: flex;
 }
 
+
 main div.imgs img{
     margin: 1rem;
     text-align: center;
@@ -10,7 +11,7 @@ main div.imgs img{
     height: 350px;
 }
 
-main div.contact{
+main div.contact  {
     background-color: #eff1ec;
     margin: 1rem;
     padding: 1rem;
@@ -20,10 +21,53 @@ main div.contact{
 
 }
 
-main div.facebook {
+main div.facebook iframe{
     margin: 1rem;
     display: block;
     width: 500px;
     height: 690px;
 
+}
+
+@media only screen and (max-width:700px){
+
+    main {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+    main div.contact{
+        background-color: #eff1ec;
+        margin: 1rem;
+        padding: 1rem;
+        display: block;
+        text-align:left;
+        width: 81vw;
+
+
+    
+    }
+
+    main div.imgs img{
+        margin: 1rem;
+        text-align: center;
+        display: inline;
+        width: 200px;
+        height: 200px;
+
+    }
+
+    main div.facebook iframe{
+        margin: 1rem;
+        padding: 1rem;
+        display: block;
+        width: 500px;
+        height: 690px;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    
+    }
 }

@@ -12,8 +12,6 @@
      
      background-color: #eff1ec;
      margin: 1rem;
-
-
      padding: 1rem;
      text-align: center;
      color: #333d29;
@@ -32,6 +30,7 @@
  nav {
      float:none;
      margin: 1rem;
+
  }
 
  nav ul {
@@ -51,9 +50,32 @@
 
  nav a {
      display: inline;
-     padding: 5rem ;
+     padding: 1rem ;
      text-decoration: none; 
      color: #333d29;
+ }
+
+ @media only screen and (max-width:700px) {
+    nav ul {
+        list-style-type:none;
+        background-color: #eff1ec;
+        font-weight:bold;
+        /* padding: 1rem;  */
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+   
+    }
+    nav li {
+        float:center;
+        text-align: right;
+    }
+
+    nav a {
+        /* padding: 1rem ; */
+        text-decoration: none; 
+        color: #333d29;
+    }
  }
 
  a:link { 
