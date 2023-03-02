@@ -13,12 +13,16 @@
  main div.form label {
     background-color: #eff1ec;
     margin: 1rem;
-    display:block;
+    padding: 1rem;
+    display:inline;
 
  }
  main div.form input {
     background-color: #eff1ec;
     margin: 1rem;
+    margin-left: 3rem;
+    padding: 1rem;
+
     display:inline;
 
  }

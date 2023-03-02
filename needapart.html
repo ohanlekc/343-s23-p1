@@ -44,18 +44,19 @@
   <form>
     <label for="full_name">Name:</label><br>
 
-    <label for="phone_number">Phone Number (###-###-####):</label><br>
-
-    <label for="email">Email (john@company.com):</label><br>
-
-    <label for="message">Message:</label><br>
-    <input type="text" id="email" name="email" pattern="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$"required><br>
-
-    <input type="text" id="phone_number" name="phone_number" pattern="^[1-9]\d{2}-\d{3}-\d{4}" required><br>
-
     <input type="text" id="full_name" name="full_name" required><br>
 
-    <input type="message" id="message" name="message" required><br>
+    <label for="phone_number">Phone Number (###-###-####):</label><br>
+    <input type="text" id="phone_number" name="phone_number" pattern="^[1-9]\d{2}-\d{3}-\d{4}" required><br>
+
+    <label for="email">Email (john@company.com):</label><br>
+    <input type="text" id="email" name="email" pattern="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$"required><br>
+
+    <label for="message">Message:</label><br>
+
+
+
+    <input type="message" id="message" name="message" width="1000" required><br>
 
     <input type="submit" value="Submit">
 </form>
