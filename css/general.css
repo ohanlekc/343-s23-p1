@@ -5,7 +5,6 @@
  body {
      background-color: #333d29;
      font-family: 'Times New Roman', Times, serif;
-     color: #333d29;
  }
 
  header {
@@ -68,7 +67,6 @@
    
     }
     nav li {
-        float:center;
         text-align: right;
     }
 
