@@ -20,10 +20,10 @@
   }
 
   @media only screen and (max-width:480px) {
-    
+
     div img {
       margin: 1rem;
-      width: 125px;
-      height: 125px;
+      width: 175px;
+      height: 175px;
     }
   }
