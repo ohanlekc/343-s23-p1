@@ -12,6 +12,7 @@ main div.imgs img{
 
 main div.about {
     margin: 1rem;
+    padding: 1rem;
     width: 45vw;
     display: block;
     background-color: #eff1ec;
